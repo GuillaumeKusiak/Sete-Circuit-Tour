@@ -41,9 +41,6 @@ Nous présentons tous les circuits possibles ainsi que les informations les plus
 
 
 ## IV. Language utilisés
-* *CSS3*
-* *HTML5*
-* *Javascript*
-___
-
-![Image](/images/logo.png "Logo Sète circuit tour")
+<img align="left" src="https://cdn.worldvectorlogo.com/logos/html-1.svg" width="48px">
+<img align="left" src="https://cdn.worldvectorlogo.com/logos/css-3.svg" width="48px">
+<img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" width="48px">
