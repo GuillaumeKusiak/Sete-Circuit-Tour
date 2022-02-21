@@ -1,0 +1,51 @@
+/*
+
+   _____            _             _   
+  / ____|          | |           | |  
+ | |     ___  _ __ | |_ __ _  ___| |_ 
+ | |    / _ \| '_ \| __/ _` |/ __| __|
+ | |___| (_) | | | | || (_| | (__| |_ 
+  \_____\___/|_| |_|\__\__,_|\___|\__|
+                                      
+                                      
+*/
+.text-contact {
+    text-align: center;
+    width: 70vw;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 0.15em solid black;
+    margin-top: 50px;
+    padding-bottom: 5em;
+}
+.reseaux-text {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.title-contact {
+    font-size: 1em;
+    text-align: center;
+    padding-top: 50px;
+}
+.list-reseaux {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-top: 2em;
+}
+.reseaux a {
+    text-decoration: none;
+    color: black;
+}
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.banner img{
+    width: 8em;
+    height: 13em;
+}

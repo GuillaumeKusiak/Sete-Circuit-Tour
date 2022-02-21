@@ -1,0 +1,45 @@
+/*
+
+                _   _                  __ 
+               | | (_)                /_ |
+  ___  ___  ___| |_ _  ___  _ __ ______| |
+ / __|/ _ \/ __| __| |/ _ \| '_ \______| |
+ \__ \  __/ (__| |_| | (_) | | | |     | |
+ |___/\___|\___|\__|_|\___/|_| |_|     |_|
+                                          
+                                          
+
+*/
+
+.section-1{
+    font-size: 30px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    font-family: var(--main-font);
+}
+.section-1 .content{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 52vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section-1-title{
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    color: black;
+}
+.section-1-paragraph{
+    font-size: 0.65em;
+    letter-spacing: 0.05em;
+    line-height: 1.4em;
+    color: black;
+    margin-bottom: 1.5em;
+}
+.fa-map-marker-alt{
+    margin-right: 0.5em;
+}
+.authors{
+    font-size: 0.8em;
+}

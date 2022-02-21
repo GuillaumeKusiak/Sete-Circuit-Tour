@@ -1,0 +1,136 @@
+/*
+
+
+                _   _                 ___  
+               | | (_)               |__ \ 
+  ___  ___  ___| |_ _  ___  _ __ ______ ) |
+ / __|/ _ \/ __| __| |/ _ \| '_ \______/ / 
+ \__ \  __/ (__| |_| | (_) | | | |    / /_ 
+ |___/\___|\___|\__|_|\___/|_| |_|   |____|
+                                           
+                                           
+
+
+*/
+.section-2{
+    font-size: 28px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 4em;
+}
+.section-2-title{
+    text-align: center;
+    margin-bottom: 4em;
+    color: white;
+    font-size: 1em;
+    letter-spacing: 2px;
+    font-family: var(--main-font);
+}
+.section-2 .content{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5em;
+}
+.way-easy, .way-medium, .way-hard{
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 14em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 0.8em;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.image{
+    width: 100%;
+    height: 8em;
+}
+.way-image{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+.way-image:hover{
+    transform:translateY(-0.3em);
+}
+.way-easy ul, .way-medium ul, .way-hard ul{
+    padding: 0; margin: 10px;
+    line-height: 3em;
+    font-family: var(--main-font);
+    text-align: center;
+    letter-spacing: 0.09em;
+    list-style-type: none;
+    font-size: 0.7em;
+    color: black;
+}
+.level{
+    font-family: var(--main-font);
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: black;
+}
+.border{
+    border-bottom: solid 2px black;
+    margin: 0 50px 0 50px;
+}
+.level-infos span{
+    color: var(--zest);
+    letter-spacing: 0.1em;
+
+}
+.lieu{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    border: none;
+    background-color: var(--zest);
+    color: white;
+    border-radius: 10px;
+    border-radius: 0px 1.2em 1.2em 0px;
+    font-size: 0.6em;
+    padding: 0.3em;
+    letter-spacing: 0.09em;
+    font-family: var(--main-font);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.button-link{
+    position: absolute;
+    top: 10%;
+    right: 0;
+    border: none;
+    font-family: var(--main-font);
+    background-color: rgb(99, 89, 87);
+    color: white;
+    font-size: 0.8em;
+    letter-spacing: 0.05em;
+    padding: 0.4em;
+    border-radius: 1.2em 0 0 1.2em;
+    cursor: pointer;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+    transition: 0.3s ease-in-out;
+}
+.button-link{
+    color: white;
+    text-decoration: none;
+}
+.button-link:hover a{
+    color: rgba(99, 89, 87);    
+}
+.button-link:hover{
+    color: rgb(99, 89, 87);
+    background-color: white;
+}

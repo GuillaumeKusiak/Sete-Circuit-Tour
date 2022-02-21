@@ -1,0 +1,120 @@
+/*
+
+  _   _             _             _   _             
+ | \ | |           (_)           | | (_)            
+ |  \| | __ ___   ___  __ _  __ _| |_ _  ___  _ __  
+ | . ` |/ _` \ \ / / |/ _` |/ _` | __| |/ _ \| '_ \ 
+ | |\  | (_| |\ V /| | (_| | (_| | |_| | (_) | | | |
+ |_| \_|\__,_| \_/ |_|\__, |\__,_|\__|_|\___/|_| |_|
+                       __/ |                        
+                      |___/                         
+
+*/ 
+.navbar{
+    position: relative;
+    font-size: 28px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 3em;
+    background-color: rgba(277,129,30,0);
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 8em;
+    background-color: rgba(99, 89, 87,0.8);
+}
+.logo{
+    width: 4em;
+    height: 4em;
+}
+.nav-link{
+    position: relative;
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+.link:hover{
+    opacity: 0.6;
+}
+.link a{
+    text-decoration: none;
+    font-family: var(--main-font);
+    letter-spacing: 2px;
+    font-size: 0.8em;
+    color: white;
+
+}
+.navbar i{
+    font-size: 2em;
+    color: white;
+    display: none;
+    cursor: pointer;
+
+}
+#selected{
+    border-bottom: 0.1em solid white;
+}
+
+/*
+
+
+                                      _            
+                                     (_)           
+  _ __ ___  ___ _ __   ___  _ __  ___ ___   _____  
+ | '__/ _ \/ __| '_ \ / _ \| '_ \/ __| \ \ / / _ \ 
+ | | |  __/\__ \ |_) | (_) | | | \__ \ |\ V /  __/ 
+ |_|  \___||___/ .__/ \___/|_| |_|___/_| \_/ \___| 
+               | |                                 
+               |_|                                 
+
+*/
+
+.responsive-navbar{
+    font-size: 28px;
+    position: absolute;
+    right: 0;
+    top: 3em;
+    transform: translateY(-14%);
+    display: flex;
+    flex-direction: row;
+    width: 0;
+    height: 6em;
+    background-color: white;
+    padding: 1em 0 1em 0;
+    z-index: 1;
+    transition: 0.3s ease-in-out;
+}
+.responsive-nav-link{
+    position: relative;
+    height: auto;
+    width: 90%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    list-style-type: none;
+}
+.responsive-link{
+    width: 90%;
+    border-bottom: 2px solid black;
+    line-height: 1.2em;
+}
+.responsive-link a{
+    text-decoration: none;
+    font-family: var(--main-font);
+    letter-spacing: 2px;
+    font-size: 0.6em;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+.responsive-link a:hover{
+    padding-left: 1em;
+}

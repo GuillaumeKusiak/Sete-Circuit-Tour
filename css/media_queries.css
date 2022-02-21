@@ -1,0 +1,97 @@
+@media screen and (min-width: 1080px) and (max-width: 1500px){
+    .header{
+        font-size: 38px;
+    }
+    .navbar{
+        font-size: 22px;
+    }
+    .section-1{
+       font-size: 25px; 
+    }
+    .section-2{
+        font-size: 24px;
+    }
+    .footer{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1080px){
+    .header{
+        font-size: 35px;
+    }
+    .navbar{
+        font-size: 20px;
+    }
+    .footer{
+        font-size: 18px;
+    }
+    .section-1{
+        font-size: 23px;
+    }
+    .container-restaurant{
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(6,8em);
+        grid-template-areas: "r-1-ima"
+        "r-1-inf"
+        "r-2-ima"
+        "r-2-inf"
+        "r-3-ima"
+        "r-3-inf";
+        gap: 1em;
+    }
+    .section-2{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 600px){
+    .navbar{
+        font-size: 18px;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .navbar i{
+        display: flex;
+        position: absolute;
+        right: 5%;
+        top: 50%;
+        transform: translateY(-50%);
+        
+    }
+    .header{
+        font-size: 29px;
+    }
+    .section-1{
+        font-size: 19px;
+    }
+    .section-1 .content{
+        width: 15em;
+    }
+    .section-2{
+        font-size: 20px;
+    }
+    .footer{
+        font-size: 17px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-restaurant{
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(6,8em);
+        grid-template-areas: "r-1-ima"
+        "r-1-inf"
+        "r-2-ima"
+        "r-2-inf"
+        "r-3-ima"
+        "r-3-inf";
+        gap: 1em;
+    }
+    .banner .banniere-left, .banner .banniere-right{
+        display: none;
+    }
+    .banner{
+        display: flex;
+        justify-content: center;
+    }
+}
