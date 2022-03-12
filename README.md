@@ -3,9 +3,6 @@
 ```
 https://guillaumekusiak.github.io/Sete-Circuit-Tour/
 ```
-###### 📎 Hébergeur :
-> [LWS Panel](http://panel.lws.fr/)
-
 ###### 📜 Note :
 > 16.5 / 20
 ___
