@@ -12,7 +12,7 @@ ___
 
 ## I. Notre projet
 ### Présentation 📃
-Création d'un site Web statique, pour le projet SAE 1.05 intitulé ```Recueil des besoins```, en lien avec notre cursus de BUT Informatique. Le projet consitait à créer une entreprise proposant des circuit touristique dans une ville de notre choix. Nous avons décidé de réaliser ces circuits dans la magnifique ville de Sète dans l'Occitanie. 
+Création d'un site Web statique, pour le projet SAE 1.05 intitulé ```Recueil des besoins```, en lien avec notre cursus de BUT Informatique. Le projet consitait à créer une entreprise proposant des circuit touristiques dans une ville de notre choix. Nous avons décidé de réaliser ces circuits dans la magnifique ville de Sète dans l'Occitanie. 
 
 Bien entendu, ces circuits découvertes se réaliseront en vélo, pour plus de rapidité et plus de facilité. 
 Nous présentons tous les circuits possibles ainsi que les informations les plus pertinentes au sein de ce site web.
