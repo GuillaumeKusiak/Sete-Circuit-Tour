@@ -1,5 +1,5 @@
 # Sète Circuit Tour
-📍 Le lien de notre site : https://sete-circuit-tour.site
+📍 Le lien de notre site : https://guillaumekusiak.github.io/Sete-Circuit-Tour/
 ```
 https://sete-circuit-tour.site
 ```
