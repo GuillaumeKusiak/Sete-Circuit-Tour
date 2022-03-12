@@ -1,7 +1,7 @@
 # Sète Circuit Tour
-📍 Le lien de notre site : https://guillaumekusiak.github.io/Sete-Circuit-Tour/
+📍 Le lien de notre site : [Sète Circuit Tour](https://guillaumekusiak.github.io/Sete-Circuit-Tour/)
 ```
-https://sete-circuit-tour.site
+https://guillaumekusiak.github.io/Sete-Circuit-Tour/
 ```
 ###### 📎 Hébergeur :
 > [LWS Panel](http://panel.lws.fr/)
